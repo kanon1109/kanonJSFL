@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dialog id="seachLibraryClassLink" title="搜索库链接" buttons="accept,cancel">
+<vbox>
+<label value="输入需要搜索的类链接" />
+<textbox id="classLink" maxlength="20" multiline="false"
+value="" tabindex="1" size="20" literal="false" />
+</vbox>
+<spacer />
+</dialog>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialog id="plmm" title="批量命名" buttons="accept,cancel">
+<vbox>
+<label value="请选择:" />
+<radiogroup id="sortby" tabindex="2">
+<radio label="横坐标" accesskey="t" selected="true"/>
+<radio label="纵坐标" accesskey="l" />
+</radiogroup>
+</vbox>
+<spacer />
+<vbox>
+<label value="mc名前缀" />
+<textbox id="name" maxlength="10" multiline="false"
+value="b" tabindex="1" size="5" literal="false" />
+
+<label value="开始索引" />
+<textbox id="start" maxlength="10" multiline="false"
+value="1" tabindex="1" size="5" literal="false" />
+</vbox>
+</dialog>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dialog id="convertToSymbol" title="批量修改舞台元件名" buttons="accept,cancel">
+<vbox>
+<label value="请选择转换的类型:" />
+<radiogroup id="type" tabindex="3">
+<radio label="影片剪辑" accesskey="mc" selected = "true"/>
+<radio label="按钮" accesskey="btn"/>
+<radio label="图形" accesskey="grap"/>
+</radiogroup>
+</vbox>
+<spacer />
+<vbox>
+<label value="元件名前缀" />
+<textbox id="name" maxlength="10" multiline="false"
+value="mc" tabindex="1" size="5" literal="false" />
+
+<label value="请选择开始索引或者随机索引" />
+<textbox id="start" maxlength="10" multiline="false"
+value="1" tabindex="1" size="5" literal="false"  />
+
+<radiogroup id="sortby" tabindex="2">
+<radio label="递增索引" accesskey="m" selected = "true"/>
+<radio label="随机索引" accesskey="r"/>
+</radiogroup>
+</vbox>
+<spacer />
+</dialog>

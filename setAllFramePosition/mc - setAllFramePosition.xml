@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dialog id="setElementPostion" title="更改mc里所有针元件位置" buttons="accept,cancel">
+<label value="输入x坐标位置" />
+<textbox id="x" maxlength="10" multiline="false"
+value="0" tabindex="1" size="5" literal="false" />
+
+<label value="输入y坐标位置" />
+<textbox id="y" maxlength="10" multiline="false"
+value="0" tabindex="1" size="5" literal="false" />
+</dialog>

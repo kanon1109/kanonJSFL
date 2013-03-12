@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dialog id="addFrame" title="增加帧" buttons="accept,cancel">
+<spacer />
+<label value="需要增加的帧数" />
+<textbox id="frame" maxlength="3" multiline="false"
+value="0" tabindex="1" size="5" literal="false" />
+</dialog>

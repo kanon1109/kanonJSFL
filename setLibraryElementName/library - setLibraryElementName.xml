@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dialog id="itemName" title="批量修改库元件名" buttons="accept,cancel">
+<vbox>
+<label value="请选择:" />
+</vbox>
+<spacer />
+<vbox>
+<label value="元件名前缀" />
+<textbox id="name" maxlength="10" multiline="false"
+value="mc" tabindex="1" size="5" literal="false" />
+
+<label value="请选择开始索引或者随机索引" />
+<textbox id="start" maxlength="10" multiline="false"
+value="1" tabindex="1" size="5" literal="false"  />
+<radiogroup id="sortby" tabindex="1">
+<radio label="递增索引" accesskey="m" selected = "true"/>
+<radio label="随机索引" accesskey="r"/>
+</radiogroup>
+</vbox>
+</dialog>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dialog id="setStroke" title="修改线条" buttons="accept,cancel">
+<spacer />
+<label value="颜色" />
+<textbox id="color" maxlength="9" multiline="false"
+value="#2C231F" tabindex="1" size="10" literal="false" />
+
+<label value="笔触大小" />
+<textbox id="thickness" maxlength="2" multiline="false"
+value="1" tabindex="1" size="5" literal="false" />
+</dialog>

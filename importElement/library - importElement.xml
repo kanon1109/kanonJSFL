@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dialog id="export" title="批量导出库里元件" buttons="accept,cancel">
+<vbox>
+<label value="请选择导出的类型:" />
+<radiogroup id="sortby" tabindex="2">
+<radio label="PNG" accesskey="p" selected = "true"/>
+<radio label="SWF" accesskey="s"/>
+</radiogroup>
+</vbox>
+<spacer />
+</dialog>

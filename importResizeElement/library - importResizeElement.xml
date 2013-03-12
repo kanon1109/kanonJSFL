@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dialog id="export" title="导出库元件设置大小" buttons="accept,cancel">
+<vbox>
+<label value="请选择导出的类型:" />
+<radiogroup id="sortby" tabindex="2">
+<radio label="PNG" accesskey="p" selected = "true"/>
+<radio label="SWF" accesskey="s"/>
+</radiogroup>
+</vbox>
+<spacer />
+
+<label value="高" />
+<textbox id="height" multiline="false"
+value="160" tabindex="1" size="10" literal="false" />
+
+<label value="宽" />
+<textbox id="width" multiline="false"
+value="160" tabindex="1" size="10" literal="false" />
+<spacer />
+
+</dialog>

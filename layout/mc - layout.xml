@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dialog id="layout" title="自动布局" buttons="accept,cancel">
+<spacer />
+<vbox>
+	<hbox>
+	<label value="行数" />
+	<textbox id="row" maxlength="4" multiline="false"
+	value="1" tabindex="1" size="2" literal="false" />
+	<label value="列数" />
+	<textbox id="column" maxlength="4" multiline="false"
+	value="1" tabindex="2" size="2" literal="false" />
+	</hbox>
+	
+	<hbox>
+	<label value="起始x" />
+	<textbox id="startX" maxlength="4" multiline="false"
+	value="0" tabindex="5" size="2" literal="false" />
+	<label value="起始y" />
+	<textbox id="startY" maxlength="4" multiline="false"
+	value="0" tabindex="2" size="2" literal="false" />
+	</hbox>
+	
+	<hbox>
+	<label value="行间隔" />
+	<textbox id="gapY" maxlength="4" multiline="false"
+	value="5" tabindex="4" size="2" literal="false" />
+	<label value="列间隔" />
+	<textbox id="gapX" maxlength="4" multiline="false"
+	value="5" tabindex="3" size="2" literal="false" />
+	</hbox>
+</vbox>
+</dialog>
