@@ -38,6 +38,8 @@ function initElementList(flag)
 				//fl.trace(element.elementType);
 				var o = filterElement(element, "instance",flag);
 				this.elementList.push(o);
+				o = filterElement(element, "text",flag);
+				this.elementList.push(o);
 			}
 		}
 	}
