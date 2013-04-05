@@ -25,7 +25,7 @@ function addFrame(f)
 	}
 }
 
-var xmlpanel = dom.xmlPanel(fl.configURI + "Commands/增加帧面板.xml");
+var xmlpanel = dom.xmlPanel(fl.configURI + "Commands/timeline - addFrame.xml");
 if(xmlpanel.dismiss == "accept")
 {
 	var frame = xmlpanel["frame"];

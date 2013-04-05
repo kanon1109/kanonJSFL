@@ -31,7 +31,7 @@ function setElementStrokeColor(list, color, thickness)
 	dom.selectNone();
 }
 
-var xmlpanel = dom.xmlPanel(fl.configURI + "Commands/修改线条颜色.xml")
+var xmlpanel = dom.xmlPanel(fl.configURI + "Commands/mc - setElementLineColor.xml")
 //---dismiss---为xpanel面板内按下的事件类型---
 if(xmlpanel.dismiss == "accept")
 {

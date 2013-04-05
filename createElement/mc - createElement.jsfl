@@ -76,7 +76,7 @@ function selectType(type)
 	return t;
 }
 
-var xmlpanel = dom.xmlPanel(fl.configURI + "Commands/批量转换元件.xml")
+var xmlpanel = dom.xmlPanel(fl.configURI + "Commands/mc - createElement.xml")
 //---dismiss---为xpanel面板内按下的事件类型---
 if(xmlpanel.dismiss == "accept")
 {

@@ -25,7 +25,7 @@ function run(name,start)
 	}
 }
 
-var xmlpanel = dom.xmlPanel(fl.configURI + "Commands/批量修改类链接面板.xml")
+var xmlpanel = dom.xmlPanel(fl.configURI + "Commands/library - setLinkName.xml")
 //---dismiss---为xpanel面板内按下的事件类型---
 if(xmlpanel.dismiss == "accept")
 {

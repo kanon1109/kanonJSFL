@@ -11,7 +11,7 @@ function addRect(bSuppressFill,bSuppressStroke)
 	var h = dom.height;
 	dom.addNewRectangle({left:0,top:0,right:w,bottom:h},0, bSuppressFill,bSuppressStroke);
 }
-var xmlpanel = dom.xmlPanel(fl.configURI + "Commands/添加舞台相同高宽的框面板.xml");
+var xmlpanel = dom.xmlPanel(fl.configURI + "Commands/stage - createStageSizeBg.xml");
 if(xmlpanel.dismiss == "accept")
 {
 	var str = xmlpanel["sortby"];

@@ -21,7 +21,7 @@ function seachLibraryLink(linkageClassName)
 	if(i==length)alert("未找到该元件");
 }
 
-var xmlPanel = dom.xmlPanel(fl.configURI + "Commands/搜索库链接.xml");
+var xmlPanel = dom.xmlPanel(fl.configURI + "Commands/library - seachLink.xml");
 if(xmlPanel.dismiss == "accept")
 {
 	var classLink = xmlPanel["classLink"];

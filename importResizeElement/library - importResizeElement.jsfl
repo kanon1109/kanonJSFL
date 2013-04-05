@@ -32,7 +32,7 @@ function run(flag, width, height)
 	}
 }
 
-var xmlpanel = dom.xmlPanel(fl.configURI + "Commands/导出库元件设置大小.xml")
+var xmlpanel = dom.xmlPanel(fl.configURI + "Commands/library - importResizeElement.xml")
 //---dismiss---为xpanel面板内按下的事件类型---
 if(xmlpanel.dismiss == "accept")
 {

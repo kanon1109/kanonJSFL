@@ -82,7 +82,7 @@ function selectType(type)
 	return t;
 }
 
-var xmlpanel = dom.xmlPanel(fl.configURI + "Commands/批量修改舞台元件名.xml")
+var xmlpanel = dom.xmlPanel(fl.configURI + "Commands/stage - setElementNameInStage.xml")
 //---dismiss---为xpanel面板内按下的事件类型---
 if(xmlpanel.dismiss == "accept")
 {

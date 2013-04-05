@@ -111,7 +111,7 @@ function setElementPostion(elementList,x,y)
     }
 }
 
-var xpanel = dom.xmlPanel(fl.configURI + "Commands/更改mc里所有针元件位置.xml");
+var xpanel = dom.xmlPanel(fl.configURI + "Commands/mc - setAllFramePosition.xml");
 //---dismiss---为xpanel面板内按下的事件类型---
 if(xpanel.dismiss == "accept")
 {

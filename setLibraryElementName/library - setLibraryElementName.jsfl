@@ -31,7 +31,7 @@ function run(name,start,isRandom)
 	}
 }
 
-var xmlpanel = dom.xmlPanel(fl.configURI + "Commands/批量修改库元件名面板.xml")
+var xmlpanel = dom.xmlPanel(fl.configURI + "Commands/library - setLibraryElementName.xml")
 //---dismiss---为xpanel面板内按下的事件类型---
 if(xmlpanel.dismiss == "accept")
 {

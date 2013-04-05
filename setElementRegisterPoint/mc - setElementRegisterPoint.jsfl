@@ -149,7 +149,7 @@ function selectDirection(dir)
 	return dirList[index];
 }
 
-var xmlpanel = dom.xmlPanel(fl.configURI + "Commands/批量修改注册点.xml");
+var xmlpanel = dom.xmlPanel(fl.configURI + "Commands/mc - setElementRegisterPoint.xml");
 //---dismiss---为xmlpanel面板内按下的事件类型---
 //if(xmlpanel.dismiss == "cancel") alert("您退出了。"+"\n"+"作者Kanon");
 if(xmlpanel.dismiss == "accept")

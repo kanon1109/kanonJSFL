@@ -139,7 +139,7 @@ function rename(name,flag,start)
 	}
 }
 
-var xpanel = dom.xmlPanel(fl.configURI + "Commands/批量修改实例名面板.xml");
+var xpanel = dom.xmlPanel(fl.configURI + "Commands/mc - setElementObjName.xml");
 //---dismiss---为xpanel面板内按下的事件类型---
 if(xpanel.dismiss == "cancel") alert("您退出了。"+"\n"+"作者Kanon");
 if(xpanel.dismiss == "accept")

@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<dialog id="rectRoundStage" title="添加舞台相同高宽的框面板" buttons="accept,cancel">
-<label value="请选择:" />
-<radiogroup id="sortby" tabindex="3">
-<radio label="只有线条" accesskey="1" selected="true"/>
-<radio label="只有填充" accesskey="2" />
-<radio label="有线条和填充" accesskey="3" />
-</radiogroup>
-</dialog>

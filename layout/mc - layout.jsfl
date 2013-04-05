@@ -161,7 +161,7 @@ function layoutElement(row,column,gapX,gapY,startX,startY)
 	}
 }
 
-var xmlpanel = dom.xmlPanel(fl.configURI + "Commands/自动排列布局面板.xml");
+var xmlpanel = dom.xmlPanel(fl.configURI + "Commands/mc - layout.xml");
 //---dismiss---为xmlpanel面板内按下的事件类型---
 //if(xmlpanel.dismiss == "cancel") alert("您退出了。"+"\n"+"作者Kanon");
 if(xmlpanel.dismiss == "accept")

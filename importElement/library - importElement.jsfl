@@ -33,7 +33,7 @@ function run(flag)
 	}
 }
 
-var xmlpanel = dom.xmlPanel(fl.configURI + "Commands/批量导出库里元件.xml")
+var xmlpanel = dom.xmlPanel(fl.configURI + "Commands/library - importElement.xml")
 //---dismiss---为xpanel面板内按下的事件类型---
 if(xmlpanel.dismiss == "accept")
 {
