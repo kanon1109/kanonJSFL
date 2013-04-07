@@ -5,6 +5,13 @@
 </vbox>
 <spacer />
 <vbox>
+<label value="请选择转换的类型:" />
+<radiogroup id="type" tabindex="2">
+<radio label="自定义" accesskey="custom" selected = "true"/>
+<radio label="与元件名相同" accesskey="sameName"/>
+</radiogroup>
+</vbox>
+<vbox>
 <label value="类名前缀" />
 <textbox id="name" maxlength="10" multiline="false"
 value="Btn" tabindex="1" size="5" literal="false" />

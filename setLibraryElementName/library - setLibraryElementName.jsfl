@@ -40,6 +40,6 @@ if(xmlpanel.dismiss == "accept")
 	if(isNaN(start)) alert("参数错误");
 	var str = xmlpanel["sortby"];
 	var bool = str == "随机索引";
-	fl.trace(bool)
+	fl.trace(bool);
 	this.run(name,start,bool);
 }
