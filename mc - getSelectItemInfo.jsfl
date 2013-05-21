@@ -3,7 +3,7 @@ function run(item1, item2)
 	//清楚trace内容
 	fl.outputPanel.clear();
 	
-	var rect = dom.getSelectionRect();
+	var rect = fl.getDocumentDOM().getSelectionRect();
 	var left = rect.left;
 	var top = rect.top;
 	var right = rect.right;
