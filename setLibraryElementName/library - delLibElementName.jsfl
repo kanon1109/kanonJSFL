@@ -28,50 +28,19 @@ function charAt(str, start, len, bool)
     var length = str.length;
     if(len > length) len = length;
     if(start > length) start = length;
-    fl.trace("length: " + length)
-    fl.trace("len: " + len);
-    fl.trace("start: " + start);
     var newStr = "";
     var s = start;
     var e = start + len;
     if(bool)
     {
-        fl.trace("s:" + s);
-        fl.trace("e:" + e);
-        
-        newStr += str.substring(0, s + 1);
-        fl.trace("1newStr:" + newStr);
-        newStr += str.substring(e, len);
-        fl.trace("2newStr:" + newStr);
-        
-        //头部开始删除
-        /*for(var i = 0; i < length; i+=1)
-        {
-            if(i < s || i >= e) 
-            {
-                newStr += str.charAt(i);
-            }
-        }*/
+		//头部开始删除
+        newStr = str.substring(0, s) + str.substr(e, length);
     }
     else
     {
-        //3 - 1 - 0 - 2 = 0
-        //2
         s = length - 1 - start - len;
         e = s + len;
-        fl.trace("s:" + s);
-        fl.trace("e:" + e);
-        newStr += str.substring(0, s);
-        fl.trace("1newStr:" + newStr);
-        newStr += str.substring(e + 1, len);
-        fl.trace("2newStr:" + newStr);
-        /*for(var i = 0; i < length; i+=1)
-        {
-            if(i <= s || i > e) 
-            {
-                newStr += str.charAt(i);
-            }
-        }*/
+        newStr = str.substring(0, s + 1) + str.substr(e + 1 , length);
     }
     if(newStr == "") fl.trace("名字不能为空")
     return newStr
@@ -87,8 +56,8 @@ if(xmlpanel.dismiss == "accept")
 	if(isNaN(start)) alert("参数错误");
 	if(isNaN(len)) alert("参数错误");
     var str = xmlpanel["order"];
-    fl.trace("order: " + str);
-    fl.trace("len: " + len);
+    //fl.trace("order: " + str);
+    //fl.trace("len: " + len);
 	var bool = str == "从头部开始删除";
 	this.run(start, len, bool);
 }
