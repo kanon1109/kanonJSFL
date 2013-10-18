@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dialog id="itemName" title="根据索引删除库元件名" buttons="accept, cancel">
+<vbox>
+<label value="请填写起始索引和数量:" />
+</vbox>
+<spacer />
+<vbox>
+<label value="请选择开始索引和删除数量（删除数量包含开始索引）" />
+<textbox id="start" maxlength="100" multiline="false"
+value="0" tabindex="1" size="5" literal="false"  />
+<textbox id="len" maxlength="100" multiline="false"
+value="1" tabindex="1" size="5" literal="false"  />
+<radiogroup id="order" tabindex="1">
+<radio label="从头部开始删除" accesskey="s" selected = "true"/>
+<radio label="从尾部开始删除" accesskey="e"/>
+</radiogroup>
+</vbox>
+</dialog>
