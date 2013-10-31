@@ -17,8 +17,9 @@ function run(start, len, bool)
 	{
         var str = itemList[i].name;
         itemList[i].name = this.charAt(str, start, len, bool);
-        fl.trace("newName: " + itemList[i].name);
+        //fl.trace("newName: " + itemList[i].name);
 	}
+	fl.trace("finish");
 }
 
 function charAt(str, start, len, bool)
