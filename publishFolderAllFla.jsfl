@@ -30,7 +30,6 @@ function publishFolder(path)
 				doc.publish();
 				doc.close();
 			}
-			
 		}
 	}
 }
